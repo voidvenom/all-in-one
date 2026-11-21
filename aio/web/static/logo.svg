@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="all-in-one">
+  <title>all-in-one</title>
+  <defs>
+    <linearGradient id="aio-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="0.55" stop-color="#0b57d0"/>
+      <stop offset="1" stop-color="#083a8c"/>
+    </linearGradient>
+    <linearGradient id="aio-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="512" height="512" rx="116" fill="url(#aio-bg)"/>
+  <rect x="0" y="0" width="512" height="256" rx="116" fill="url(#aio-sheen)"/>
+
+  <path d="M256 100 400 178 256 256 112 178Z" fill="#ffffff"/>
+  <path d="M112 248 256 326 400 248" fill="none" stroke="#ffffff" stroke-opacity="0.9"
+        stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M112 324 256 402 400 324" fill="none" stroke="#ffffff" stroke-opacity="0.7"
+        stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=all-in-one
+GenericName=Antigravity hesap merkezi
+Comment=Antigravity / Gemini hesapları ve kotayı tek yerden yönet
+Exec="@EXEC@" ui
+Icon=@ICON@
+Terminal=false
+Categories=Utility;
+Keywords=antigravity;gemini;quota;hesap;account;keyring;
+StartupNotify=true

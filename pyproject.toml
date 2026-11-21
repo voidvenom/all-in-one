@@ -54,4 +54,4 @@ where = ["."]
 include = ["aio*"]
 
 [tool.setuptools.package-data]
-aio = ["web/index.html", "web/static/app.css", "web/static/app.js"]
+aio = ["web/index.html", "web/static/app.css", "web/static/app.js", "web/static/logo.svg"]

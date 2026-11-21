@@ -1,6 +1,35 @@
-# all-in-one
+<p align="center">
+  <img src="assets/logo.svg" width="104" height="104" alt="all-in-one logo">
+</p>
+
+<h1 align="center">all-in-one</h1>
 
 Linux için **Antigravity / Gemini hesap ve kota merkezi**. Birden fazla Google hesabını tek tek kaydeder, OAuth oturumları arasında keyring seviyesinde geçiş yapar, gerçek Antigravity kotalarını okur ve kota azaldığında uyarır.
+
+---
+
+## Hızlı kurulum (tek satır)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/voidvenom/all-in-one/main/install.sh | bash
+```
+
+Betik:
+
+- Depoyu `~/.local/share/all-in-one` altına klonlar.
+- Bir Python sanal ortamı oluşturup paketi kurar.
+- `aio` komutunu `~/.local/bin/aio` konumuna bağlar.
+- **Başlat menüsüne** all-in-one kısayolunu ve logoyu ekler.
+
+Kurulumdan sonra uygulamayı başlat menüsünden açabilir ya da terminalden `aio ui` çalıştırabilirsiniz.
+
+```bash
+./install.sh --help        # seçenekler (--dir, --ref, --deps, --no-desktop)
+./install.sh --deps        # eksik sistem paketlerini de kurmayı dene
+./install.sh --uninstall   # kısayolu, ikonu ve komutu kaldır
+```
+
+Kaynaktan (git'ten) kurulum yapmak isterseniz alttaki [Kurulum](#kurulum) bölümünü kullanın.
 
 ---
 
